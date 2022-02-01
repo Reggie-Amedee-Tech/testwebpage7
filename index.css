@@ -49,19 +49,35 @@ p {
 
 .client-wheel {
     margin-top: 5%;
+    overflow: scroll;
 }
 
 .client-top-box {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .client-box {
-    background-color: black;
-    width: 100vh;
-    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
 }
+
+.client-picture {
+    border-radius: 10%;
+}
+
+.view-success {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
+    
+}
+
 
 .button {
     margin-top: 5%;
@@ -75,6 +91,9 @@ p {
     background-color: green;
     padding: 20px;
     border-radius: 10%;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 5px;
 }
 
 .form-container {
@@ -114,6 +133,14 @@ p {
     white-space: pre;
 }
 
+.button a:hover {
+    text-decoration: underline;
+}
+
+.button a:active {
+    box-shadow: 0px 0px;
+}
+
 
 
 
@@ -133,12 +160,36 @@ p {
         
     }
 
+    .container {
+        padding-top: 150px;
+    }
+
+    .header {
+        height: 200px;
+        position: fixed;
+        top: 0px;
+    }
+
+    .header h1 {
+        font-size: 4rem;
+    }
+
+    .header img {
+        
+        width: 150px;
+        height: 150px;
+    }
+
     p {
         display: inline-block;
         font-size: 2rem;
         width: 50%;
         text-align: center;
         line-height: 60px;
+    }
+
+    .button {
+        margin-top: 2%;
     }
 
     .sign-up-box {
