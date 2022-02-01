@@ -1,0 +1,156 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #F89E5E;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header img {
+    width: 90px;
+    height: 90px;
+    margin: 10px auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.main-content img {
+    width: 100%;
+}
+
+.company-detail {
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+.client-wheel {
+    margin-top: 5%;
+}
+
+.client-top-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.client-box {
+    background-color: black;
+    width: 100vh;
+    height: 15vh;
+}
+
+.button {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button a {
+    display: inline-block;
+    background-color: green;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.form-container form {
+    padding: 10px;
+}
+
+.email-input {
+    padding: 10px;
+    font-size: large;
+}
+
+.button-input {
+    padding: 10px;
+    font-size: large;
+}
+
+.footer {
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+    font-size: 1rem;
+    white-space: pre;
+}
+
+
+
+
+
+/* if website is being accessed through a pc */
+
+@media only screen and (min-width: 1024px) {
+    .main-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1%;
+    }
+    
+    .main-content img {
+        width: 50%
+        
+    }
+
+    p {
+        display: inline-block;
+        font-size: 2rem;
+        width: 50%;
+        text-align: center;
+        line-height: 60px;
+    }
+
+    .sign-up-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .form-container {
+        margin: 0px;
+    }
+}
+
+
+
