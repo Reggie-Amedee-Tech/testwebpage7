@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-color: #F89E5E;
+    background-color: #F0AE27;
     height: 100px;
     width: 100%;
     display: flex;
@@ -71,7 +71,7 @@ p {
 }
 
 .view-success {
-    background-color: green;
+    background-color: #F2C76F;
     padding: 10px;
     text-align: center;
     border-radius: 10%;
@@ -88,7 +88,7 @@ p {
 
 .button a {
     display: inline-block;
-    background-color: green;
+    background-color: #BD881E;
     padding: 20px;
     border-radius: 10%;
     text-decoration: none;
