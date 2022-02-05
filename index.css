@@ -1,10 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    background-color: #F0AE27;
+    background-color: #2C9EF5;
     height: 100px;
     width: 100%;
     display: flex;
@@ -36,8 +41,9 @@
 }
 
 .company-detail {
-    margin-top: 5%;
+    margin-top: 20px;
     text-align: center;
+    padding: 5px;
 
 }
 
@@ -48,39 +54,36 @@ p {
 }
 
 .client-wheel {
-    margin-top: 5%;
-    overflow: scroll;
-}
-
-.client-top-box {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    
 }
+
 
 .client-box {
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 10px;
     
 }
 
-.client-picture {
-    border-radius: 10%;
+.client-box img {
+    width: 350px;
+    height: 200px;
 }
 
-.view-success {
-    background-color: #F2C76F;
-    padding: 10px;
+.client-box a {
+    padding: 20px;
+    background-color: #77C0F7;
+    font-size: large;
+    border-radius: 2%;
     text-align: center;
-    border-radius: 10%;
-    
 }
-
 
 .button {
-    margin-top: 5%;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -88,24 +91,28 @@ p {
 
 .button a {
     display: inline-block;
-    background-color: #BD881E;
+    background-color: #77C0F7;
     padding: 20px;
     border-radius: 10%;
     text-decoration: none;
     color: black;
     box-shadow: 3px 5px;
+    margin-bottom: 20px;
+}
+
+.sign-up-box {
+    margin-bottom: 15px;
 }
 
 .form-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 5%;
-    
 }
 
 .form-container form {
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .email-input {
@@ -118,13 +125,50 @@ p {
     font-size: large;
 }
 
+.subcontent h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.founding-fathers {
+    background-image: url("./pictures/1848308.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.founding-father img {
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.founding-father h4 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #154C75;
+    padding: 10px;
+    border-radius: 6%;
+}
+
 .footer {
     background-color: rgb(49, 49, 49);
     width: 100%;
-    margin-top: 20px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .footer p {
@@ -156,7 +200,7 @@ p {
     }
     
     .main-content img {
-        width: 50%
+        width: 45%;
         
     }
 
@@ -200,6 +244,12 @@ p {
 
     .form-container {
         margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .subcontent {
+        display: none;
     }
 }
 
